@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+  <title> ReadBetween</title>
+</head>
+<body>
+    <h1 class="elic"> SELF-DEVELOPMENT</SELF-DEVEL></h1>
+
+
+<section class="pro">
+<div class="card">
+<a href="https://go.hotmart.com/B100301960X?dp=1" target="_blank" rel="noopener noreferrer">
+    <img src="photos/portadaFDTPv4.png" alt="">
+</a>
+
+
+<h2>price:9.99$
+</h2>
+<a href="https://go.hotmart.com/B100301960X?dp=1" target="_blank" rel="noopener noreferrer">
+<p class="buy">buy now </p>
+</a>
+</div>
+
+
+
+
+<div class="card">
+<a href=https://go.hotmart.com/Q100302002J?dp=1" target="_blank" rel="noopener noreferrer">    
+  <img src="photos/Sanstitre10.png" alt="">
+</a>
+
+
+
+<h2>price:110$
+</h2>
+<a href=https://go.hotmart.com/Q100302002J?dp=1" target="_blank" rel="noopener noreferrer">
+<p class="buy">buy now </p>
+
+</a>
+</div>
+
+
+
+</section>
+
+
+
+
+
+<section class="pro">
+<div class="card">
+<a href="https://go.hotmart.com/X100302030G?dp=1" target="_blank" rel="noopener noreferrer">
+    <img src="photos/AUTOCONOCIIENTOYDESARROLLOPERSONAL.png" alt="">
+
+</a>
+
+
+
+<h2>price:8.58$
+</h2>
+<a href="https://go.hotmart.com/X100302030G?dp=1" target="_blank" rel="noopener noreferrer">
+  <p class="buy">buy now </p>
+</a>
+</div>
+
+<div class="card">
+<a href="https://go.hotmart.com/G100302070X" target="_blank" rel="noopener noreferrer">
+    <img src="photos/LifeStrategies2.jpg" alt="">
+</a>
+
+
+<h2>price:9.99$
+</h2>
+<a href="https://go.hotmart.com/G100302070X" target="_blank" rel="noopener noreferrer">
+<p class="buy">buy now </p>
+</a>
+</div>
+
+
+
+</section>
+
+
+
+
+<section class="pro">
+<div class="card">
+<a href="https://go.hotmart.com/I100302115A?dp=1" target="_blank" rel="noopener noreferrer">
+      <img src="photos/SelfImprovementandMotivationForSuccessCDCaseFront.jpg" alt="">
+
+</a>
+
+
+
+<h2>price:25$
+</h2>
+<a href="https://go.hotmart.com/I100302115A?dp=1" target="_blank" rel="noopener noreferrer">
+<p class="buy">buy now </p>
+
+</a>
+</div>
+
+<div class="card">
+<a href="https://go.hotmart.com/C100302152X" target="_blank" rel="noopener noreferrer">
+    <img src="photos/Designsemnome13.jpg" alt="">
+
+</a>
+
+
+
+<h2>price:8.90$
+</h2>
+
+<a href="https://go.hotmart.com/C100302152X" target="_blank" rel="noopener noreferrer">
+<p class="buy">buy now </p>
+
+</a>
+</div>
+
+
+
+</section>
+
+
+
+<section class="prod">
+<div class="card">
+<a href="https://go.hotmart.com/M100302176P?dp=1" target="_blank" rel="noopener noreferrer">
+    <img src="photos/FISelfHelpLessonsbyBestSellers.png" alt="">
+
+
+</a>
+
+
+
+<h2>price:19.99$
+</h2>
+<a href="https://go.hotmart.com/M100302176P?dp=1" target="_blank" rel="noopener noreferrer">
+
+  <p class="buy">buy now </p>
+
+</a>
+</div>
+
+<div class="card">
+<a href="https://go.hotmart.com/T100302222Y?dp=1" target="_blank" rel="noopener noreferrer">
+    <img src="photos/Designsemnome.jpg" alt="">
+
+
+</a>
+
+
+
+<h2>price:9.99$
+</h2>
+<a href="https://go.hotmart.com/T100302222Y?dp=1" target="_blank" rel="noopener noreferrer">
+
+  <p class="buy">buy now </p>
+
+</a>
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+</section>
+
+<div class="pagination" id="pagination">
+  <div class="pagination-inner">
+    <a href="index.html" class="active">1</a>
+    <a href="page2.html">2</a>
+    <a href="page3.html">3</a>
+    <a href="page4.html">4</a>
+    <a href="page5.html">5</a>
+  </div>
+</div>
+
+
+
+<script>
+  const pageLinks = document.querySelectorAll('.pagination a');
+
+  // استخرج رقم الصفحة الحالي من اسم الملف
+  const path = window.location.pathname;
+  const currentPageNumber = path.match(/page(\d+)\.html/)?.[1];
+
+  pageLinks.forEach(link => {
+    if (link.textContent === currentPageNumber) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+</script>
+<script src="page.js"></script>
+
+</body>
+</html>
